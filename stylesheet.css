@@ -18,3 +18,34 @@
 .topnav .icon {
   display: none;
 }
+
+
+.containercolumn {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 600px;
+}
+
+.containerrow {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+  width:1000px;
+}
+
+.item{
+
+  align-self: center;
+  align-items: center;
+  text-align:center;
+  height:300px;
+  margin:10px;
+}
+
